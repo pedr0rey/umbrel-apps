@@ -1,9 +1,10 @@
 manifestVersion: 1.1
-id: firefly-iii-importer
+id: pedrorey-firefly-iii-importer
 category: finance
 name: Firefly III Importer
 version: "1.4.4"
 tagline: Import your transactions into Firefly III
+icon: https://github.com/pedr0rey/umbrel-apps/blob/master/files/img/icon-2.svg?raw=true
 description: >-
   Firefly III is a manager for your personal finances. The data importer is built to help you import transactions into Firefly III. It is separated from Firefly III for security and maintenance reasons.
 
@@ -18,7 +19,7 @@ description: >-
 developer: Firefly III
 website: https://www.firefly-iii.org/
 dependencies:
-  - firefly-iii
+  - pedrorey-firefly-iii
 repo: https://github.com/firefly-iii/data-importer
 support: https://docs.firefly-iii.org/references/data-importer/json/
 port: 30010
