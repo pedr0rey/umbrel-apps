@@ -11,5 +11,5 @@ services:
     restart: on-failure
     environment:
       # firefly-iii container:
-      - FIREFLY_III_URL=http://${DEVICE_DOMAIN_NAME}:30009
+      - FIREFLY_III_URL=http://pedrorey-firefly-iii_server_1:8080
       - VANITY_URL=http://${DEVICE_DOMAIN_NAME}:30009
