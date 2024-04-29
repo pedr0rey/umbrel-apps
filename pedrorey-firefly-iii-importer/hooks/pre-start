@@ -3,7 +3,7 @@ set -euo pipefail
 
 # Delay starting Firefly III Importer until Firefly III main app has started
 
-FIREFLY_CONTAINER_NAME="firefly-iii_server_1"
+FIREFLY_CONTAINER_NAME="pedrorey-firefly-iii_server_1"
 
 while true; do
     if [ "$(docker ps -q -f name=$FIREFLY_CONTAINER_NAME)" ]; then
