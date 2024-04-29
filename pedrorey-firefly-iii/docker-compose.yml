@@ -8,7 +8,7 @@ services:
       PROXY_AUTH_WHITELIST: "/api/*"
 
   server:
-    image: fireflyiii/core:version-6.1.10@sha256:c268cc2030ce6983f8ed820c9ee4510a0693bc1d9552fec81ed715b0f7fd113c
+    image: fireflyiii/core:latest
     # This image runs under the user/group www-data:www-data
     # user: "1000:1000"
     restart: on-failure
@@ -19,13 +19,13 @@ services:
       DB_CONNECTION: mysql
       DB_DATABASE: fireflyiii
       DB_USERNAME: fireflyiii
-      DB_PASSWORD: moneyprintergobrrr
+      DB_PASSWORD: psfinance*77
     volumes:
       - ${APP_DATA_DIR}/data/upload:/var/www/html/storage/upload
       - ${APP_DATA_DIR}/data/logs:/var/www/html/storage/logs
   
   db:
-    image: mariadb:10.9.4@sha256:f5146e2e0999a6afcf2a9134bb415ad068bf80ec29704f374f6f7dabb145738d
+    image: mariadb:lts
     user: "1000:1000"
     restart: on-failure
     stop_grace_period: 1m
@@ -36,5 +36,5 @@ services:
     environment:
       MYSQL_DATABASE: "fireflyiii"
       MYSQL_USER: "fireflyiii"
-      MYSQL_PASSWORD: "moneyprintergobrrr"
-      MYSQL_ROOT_PASSWORD: "moneyprintergobrrr"
+      MYSQL_PASSWORD: "psfinance*77"
+      MYSQL_ROOT_PASSWORD: "psfinance*77"
