@@ -3,7 +3,7 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: firefly-iii-importer_importer_1
+      APP_HOST: pedrorey-firefly-iii-importer_importer_1
       APP_PORT: 8080
 
   importer:
@@ -11,5 +11,5 @@ services:
     restart: on-failure
     environment:
       # firefly-iii container:
-      - FIREFLY_III_URL=http://firefly-iii_server_1:8080
+      - FIREFLY_III_URL=http://pedrorey-firefly-iii_server_1:8080
       - VANITY_URL=http://${DEVICE_DOMAIN_NAME}:30009
