@@ -10,7 +10,7 @@ version: '3.3'
 
 services:
   importer:
-    image: fireflyiii/data-importer:latest
+    image: fireflyiii/data-importer:version-1.4.4@sha256:c51bcb460134adac96d2e3086794e28616f1583bd4599219e3a818e50243cf0d
     hostname: pedrorey-firefly-iii-importer_importer_1
     restart: on-failure
     container_name: pedrorey-firefly-iii-importer_importer_1
