@@ -18,7 +18,7 @@ services:
       - '30010:8080'
     environment:
       FIREFLY_III_URL: http://pedrorey.local:30009
-      VANITY_URL: http://pedrorey.local
+      VANITY_URL: http://pedrorey.local:30009
       DB_HOST: pedrorey.local
       DB_PORT: 32772
       DB_CONNECTION: mysql
