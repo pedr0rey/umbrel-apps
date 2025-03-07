@@ -4,7 +4,7 @@ name: Firefly III
 category: finance
 version: "6.1.10"
 tagline: Your personal finance manager
-icon: https://github.com/pedr0rey/umbrel-apps/blob/master/files/img/icon.svg?raw=true
+icon: https://getumbrel.github.io/umbrel-apps-gallery/firefly-iii/icon.svg
 description: >-
   Firefly III is a manager for your personal finances. It is self-hosted and open source. This means that it's free, it has no ads and no tracking.
 
